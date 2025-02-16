@@ -36,4 +36,4 @@ jobs:
         with:
           password: ${{ secrets.TESTPYPI_API_TOKEN }}
           repository-url: https://test.pypi.org/legacy/
-
+          attestations: true
